@@ -21,4 +21,18 @@ cd frontend
 npm install
 npm run dev
 ```
+ reec67-codex/design-react-ui-structure-for-project
+The list of runtime and development dependencies can be found in
+`frontend/requirements.txt`. It enumerates the npm packages and versions
+used by the project; running `npm install` inside `frontend/` will install
+all of them automatically. The project targets Node.js 18 or higher.
 
+Current UI features include:
+
+- Login screen with role selection (Admin, Technician, Warehouse, Staff)
+- Role-aware sidebar navigation
+- Placeholder pages for assignments, maintenance schedule, stock transactions
+- QR code scanner to identify devices
+
+
+ main
