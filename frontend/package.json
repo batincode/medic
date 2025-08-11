@@ -10,7 +10,12 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+ reec67-codex/design-react-ui-structure-for-project
+    "react-router-dom": "^6.22.0",
+    "html5-qrcode": "^2.3.9"
+
     "react-router-dom": "^6.22.0"
+ main
   },
   "devDependencies": {
     "@types/react": "^18.2.21",
