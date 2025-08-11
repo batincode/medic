@@ -11,6 +11,13 @@ const DashboardPage: React.FC = () => {
       {user?.role === 'Technician' && <p>Your upcoming maintenance tasks.</p>}
       {user?.role === 'Warehouse' && <p>Stock levels and recent transactions.</p>}
       {!user && <p>Please log in to see your dashboard.</p>}
+=====
+const DashboardPage: React.FC = () => {
+  return (
+    <div>
+      <h2>Dashboard</h2>
+      {/* TODO: show upcoming assignments */}
+ main
     </div>
   );
 };

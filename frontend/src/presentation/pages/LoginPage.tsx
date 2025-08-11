@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../application/context/AuthContext';
@@ -23,6 +24,15 @@ const LoginPage: React.FC = () => {
         <option value="Staff">Staff</option>
       </select>
       <button onClick={handleLogin}>Login</button>
+
+import React from 'react';
+
+const LoginPage: React.FC = () => {
+  return (
+    <div>
+      <h2>Login</h2>
+      {/* TODO: implement login form */}
+ main
     </div>
   );
 };

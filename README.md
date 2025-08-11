@@ -21,7 +21,7 @@ cd frontend
 npm install
 npm run dev
 ```
-
+ reec67-codex/design-react-ui-structure-for-project
 The list of runtime and development dependencies can be found in
 `frontend/requirements.txt`. It enumerates the npm packages and versions
 used by the project; running `npm install` inside `frontend/` will install
@@ -34,3 +34,5 @@ Current UI features include:
 - Placeholder pages for assignments, maintenance schedule, stock transactions
 - QR code scanner to identify devices
 
+
+ main
