@@ -22,8 +22,3 @@ npm install
 npm run dev
 ```
 
-The list of runtime and development dependencies can be found in
-`frontend/requirements.txt`. It enumerates the npm packages and versions
-used by the project; running `npm install` inside `frontend/` will install
-all of them automatically. The project targets Node.js 18 or higher.
-
